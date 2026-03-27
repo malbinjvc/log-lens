@@ -9,7 +9,6 @@ RUN cpanm --notest Mojolicious
 FROM perl:5.40-slim
 
 COPY --from=builder /usr/local/lib/perl5 /usr/local/lib/perl5
-COPY --from=builder /usr/local/share/perl5 /usr/local/share/perl5
 
 RUN groupadd -r loglens && useradd -r -g loglens -m loglens
 
