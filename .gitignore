@@ -1,0 +1,15 @@
+*.swp
+*.swo
+*~
+.DS_Store
+local/
+perl5/
+.build/
+blib/
+_build/
+MYMETA.*
+*.o
+*.bs
+*.bak
+log/
+*.log
